@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      margin-top: 5%;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nft-card">
+      <div class="nft-image">
+        <div class="content">
+          <div class="content-overlay"></div>
+          <img src="images/image-equilibrium.jpg" alt="nft_img" class="nft-img">
+          <div class="content-img fadeIn-bottom">
+            <img src="images/icon-view.svg" alt="" class="view-icon">
+          </div>
+        </div>
+        <h3>Equilibrium #3429</h3>
+        <p class="nft-lead">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="nft-extras">
+          <div class="nft-price">
+            <img src="images/icon-ethereum.svg" alt="">
+            <span>
+              0.041 ETH
+            </span>
+
+          </div>
+          <div class="nft-day">
+            <img src="images/icon-clock.svg" alt="">
+            <span>
+              3 days left
+            </span>
+
+          </div>
+        </div>
+        <hr>
+        <div class="user-info">
+          <img src="images/image-avatar.png" class="usr-img" alt="">
+          <p class="user">
+            <span>Creation of</span> Jules Wyvern
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://www.twitter.com/blaycoder">blaycoder</a>.
+    </p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
